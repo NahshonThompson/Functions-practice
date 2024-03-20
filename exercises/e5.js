@@ -12,8 +12,15 @@
  */
 
 // Your code goes here...
-
-
+var x = 27;
+const getDiffTwentySeven = (num) => {
+  if (num > x) {
+    return Math.abs((num - x) * 2) 
+  }
+  return Math.abs(num - x);
+}
+getDiffTwentySeven(13)
+getDiffTwentySeven(37)
 
 
 /** =========================
@@ -24,7 +31,10 @@
  */
 
 // Your code goes here
-
+const sumOfTwoIntegers = (num1, num2) => {
+  if (num1 === num2) {return ((num1 + num2) * 3);}
+    return num1 + num2;
+}
 
 
 
@@ -38,7 +48,10 @@
  */
 
 // Your code goes here...
-
+const isOneOfThemOrTheirSumIsFourty = (num1, num2) => {
+  if (num1 === 40 || num2 === 40 || num1 + num2 === 40) {return true;}
+    return false;
+}
 
 
 

@@ -14,10 +14,10 @@
 */
 
 // Your code goes here
-
-
-
-
+function logMessage() {
+  console.log('Hello, World!');
+};
+logMessage()
 /**
  * =============================================================
  * Create a function that works as follows:
@@ -29,11 +29,10 @@
  * logMyMessage('My message') => 'My message'
 */
 
-// Your code goes here...
-
-
-
-
+function logMyMessage(phrase) {
+console.log(phrase);
+};
+logMyMessage('My message')
 /**
  * ===============================================================
  * Create a  function that works as follows:
@@ -44,11 +43,10 @@
  * logMessageWithMyName('Andrey') => 'My name is Andrey!'
 */
 
-// Your code goes here...
-
-
-
-
+function logMessageWithMyName(names) {
+  console.log('My name is ' + names + '!');
+};
+logMessageWithMyName('Andrey')
 /**
  * ==============================================================
  * Create a function that works as follows:
@@ -61,10 +59,10 @@
 */
 
 // Your code goes here...
-
-
-
-
+function logMyInfo(name, age) {
+  console.log('My name is ' + name + '.' + ' I am ' + age + ' years old!');
+};
+logMyInfo('Andrey', 18)
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
 // If the test has all tests passed, switch to the next exercise file
